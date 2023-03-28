@@ -1,7 +1,6 @@
 <template>
   <div>
-    <span>app</span>
-    <span class="iconfont icon-ercikaifa"> </span>
+    <router-view></router-view>
   </div>
 </template>
 <script>
