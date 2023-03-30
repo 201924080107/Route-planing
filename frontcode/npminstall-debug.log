@@ -1,13 +1,21 @@
 {
   root: 'D:\\code\\front\\Routing-planing\\frontcode',
   registry: 'https://registry.npmmirror.com',
-  pkgs: [],
+  pkgs: [
+    {
+      name: 'vue-typed-js',
+      version: 'latest',
+      type: 'tag',
+      alias: undefined,
+      arg: [Result]
+    }
+  ],
   production: false,
   cacheStrict: false,
   cacheDir: null,
   env: {
     npm_config_registry: 'https://registry.npmmirror.com',
-    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Z\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","element-theme","-g"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Z\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","element-theme","-g"]}',
+    npm_config_argv: '{"remain":[],"cooked":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Z\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","--save","vue-typed-js"],"original":["--fix-bug-versions","--china","--userconfig=C:\\\\Users\\\\Z\\\\.cnpmrc","--disturl=https://cdn.npmmirror.com/binaries/node","--registry=https://registry.npmmirror.com","--save","vue-typed-js"]}',
     npm_config_user_agent: 'npminstall/7.6.0 npm/? node/v18.15.0 win32 x64',
     NODE: 'D:\\soft\\Programming environment\\physical\\node\\node.exe',
     npm_node_execpath: 'D:\\soft\\Programming environment\\physical\\node\\node.exe',
@@ -176,13 +184,11 @@
   strictSSL: true,
   ignoreScripts: false,
   ignoreOptionalDependencies: false,
-  detail: true,
+  detail: false,
   forceLinkLatest: false,
   trace: false,
   engineStrict: false,
   registryOnly: false,
   client: false,
-  autoFixVersion: [Function: autoFixVersion],
-  targetDir: null,
-  binDir: null
+  autoFixVersion: [Function: autoFixVersion]
 }

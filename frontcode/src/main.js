@@ -7,9 +7,15 @@ import './plugins/element.js'
 import 'normalize.css'
 import '@/assets/css/base.css' 
 
+import VueTypedJs from 'vue-typed-js'
+ 
+
 Vue.config.productionTip = false
 new Vue({
   router,
   store,
   render: h => h(App)
 }).$mount('#app')
+
+
+Vue.use(VueTypedJs)

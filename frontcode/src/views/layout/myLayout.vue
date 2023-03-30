@@ -10,22 +10,12 @@ export default {
 </script>
 <template>
     <div class='layout'>
-        <div class='menu'>
-            <Menu></Menu>
-        </div>
-        <div class="content">
-            <Content></Content>
-        </div>
+        <Menu></Menu>
+        <Content></Content>
     </div>
 </template>
-<style lang="less">
+<style scoped>
 .layout{
-    .menu{
-        background: #666;
-    }
-    .content{
-        background: red;
-    }
+    height: 100%;
 }
-
 </style>
