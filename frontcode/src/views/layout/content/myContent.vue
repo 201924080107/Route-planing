@@ -5,24 +5,12 @@ export default {
             isCollapse: true
         };
     },
-    methods: {
-        handleOpen(key, keyPath) {
-            console.log(key, keyPath);
-        },
-        handleClose(key, keyPath) {
-            console.log(key, keyPath);
-        }
-    }
 }
 </script>
 <template>
     <div class="content">
         <router-view></router-view>
-        <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;" class="sideone">
-            <el-radio-button :label="false">展开</el-radio-button>
-            <el-radio-button :label="true">收起</el-radio-button>
-        </el-radio-group>
-        <el-menu default-active="1-4-1" class="el-menu-vertical-demo sidetwo" @open="handleOpen" @close="handleClose"
+        <el-menu default-active="1-4-1" class="el-menu-vertical-demo sidetwo"
             :collapse="isCollapse">
             <el-submenu index="1">
                 <template slot="title">
@@ -62,7 +50,7 @@ export default {
 .content {
     height: 100%;
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 200px;

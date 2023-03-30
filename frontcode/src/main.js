@@ -8,7 +8,7 @@ import 'normalize.css'
 import '@/assets/css/base.css' 
 
 import VueTypedJs from 'vue-typed-js'
- 
+import '@/assets/css/font.css'
 
 Vue.config.productionTip = false
 new Vue({
