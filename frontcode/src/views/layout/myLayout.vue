@@ -14,8 +14,8 @@ export default {
         <Content></Content>
     </div>
 </template>
-<style scoped>
-.layout{
+<style scoped lang="less">
+.layout {
     height: 100%;
 }
 </style>

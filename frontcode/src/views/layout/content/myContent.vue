@@ -50,16 +50,11 @@ export default {
 .content {
     height: 100%;
     box-sizing: border-box;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 200px;
     min-height: 400px;
-}
-
-.sideone {
-    position: fixed;
-    top: 200px;
 }
 
 .sidetwo {

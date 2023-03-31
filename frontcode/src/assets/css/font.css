@@ -10,3 +10,12 @@
     font-family: Avengers;
     src: url(./The_Avengers.otf);
 }
+@font-face {
+    font-family: Snoopy;
+    src: url(./snoopy_reg-webfont.otf);
+}
+
+@font-face {
+    font-family: tb;
+    src: url(./tb4Z0vnEjBKa.woff);
+}
